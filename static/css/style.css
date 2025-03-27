@@ -1,0 +1,14 @@
+h1 {
+  text-align: center;
+  color: #000fff;
+}
+img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+}
+div {
+  max-width: 750px;
+  justify-content: center;
+  margin: auto auto;
+}
