@@ -12,3 +12,8 @@ div {
   justify-content: center;
   margin: auto auto;
 }
+.mini-logo {
+  width: 5%;
+  height: 5%;
+  object-fit: contain;
+}

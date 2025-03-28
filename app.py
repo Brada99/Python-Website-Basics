@@ -6,6 +6,10 @@ app = Flask(__name__)
 @app.route('/')
 def home():
   return render_template('home.html')
+
+@app.route('/Social')
+def social():
+  return render_template('social.html')
   
 # this if command runs the app rather than changing the run command to work with flask
 if __name__ == '__main__':
